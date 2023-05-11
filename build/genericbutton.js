@@ -241,7 +241,7 @@ function EditComponent(props) {
   function handleColorChange(colorCode) {
     const {
       name
-    } = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_3__.getColorObjectByColorValue)(_inc_ourColors__WEBPACK_IMPORTED_MODULE_1__["default"], colorCode);
+    } = getColorObjectByColorValue(_inc_ourColors__WEBPACK_IMPORTED_MODULE_1__["default"], colorCode);
     props.setAttributes({
       colorName: name
     });

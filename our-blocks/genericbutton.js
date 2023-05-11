@@ -5,7 +5,7 @@ import {
     InspectorControls,
     BlockControls,
     __experimentalLinkControl as LinkControl,
-    getColorObjectByColorValue
+    getColorObjectByColorValues
     } from "@wordpress/block-editor"
 import { registerBlockType } from "@wordpress/blocks"
 import { link, styles } from "@wordpress/icons"
